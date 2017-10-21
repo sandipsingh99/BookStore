@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    android:gravity="center"
+    tools:context="com.college.bookstore.NewBook"
+    android:padding="30dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/layoutborder"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="Add New Book"
+            android:textColor="@color/black"
+            android:textSize="30dp" />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/black" />
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="20dp">
+    <EditText
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:autoSizeMaxTextSize="10dp"
+        android:layout_height="40dp"
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:hint="Book Name" />
+
+    <EditText
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:layout_height="40dp"
+        android:id="@+id/author"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:hint="Author Name" />
+
+    <EditText
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:layout_height="40dp"
+        android:id="@+id/category"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:hint="Category" />
+
+    <EditText
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:layout_height="40dp"
+        android:id="@+id/price"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:hint="Price" />
+
+            <EditText
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:layout_height="40dp"
+                android:id="@+id/country"
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:hint="Country" />
+    <Button
+        android:id="@+id/save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Post Book"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/white"
+        />
+
+            </LinearLayout>
+        </LinearLayout>
+</LinearLayout>

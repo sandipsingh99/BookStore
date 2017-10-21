@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "432216863885",
+    "firebase_url": "https://book-store-1a348.firebaseio.com",
+    "project_id": "book-store-1a348",
+    "storage_bucket": "book-store-1a348.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:432216863885:android:00de9134a5c17220",
+        "android_client_info": {
+          "package_name": "com.college.bookstore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "432216863885-l00gle8ssenos0rv47s82budkcip3jft.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.college.bookstore",
+            "certificate_hash": "937c25ea27a2e2e9a50ccc5d4d7ab0f9aea1d4d2"
+          }
+        },
+        {
+          "client_id": "432216863885-6t2d8s4btunhg9c47g4ea3r1fqvlidu3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPuxbi3MYnmr7ZrmNOFD-REs2Ig5sYN5M"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "432216863885-6t2d8s4btunhg9c47g4ea3r1fqvlidu3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
